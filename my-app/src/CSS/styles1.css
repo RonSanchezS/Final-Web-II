@@ -1,0 +1,65 @@
+.glass {
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 60, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+.debil {
+    position: absolute;
+    width: 100%;
+}
+
+.glass p {
+    color: white;
+}
+
+
+#idolos img {
+    width: 33%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+#idolos {
+    position: absolute;
+}
+
+#sector7 {
+    position: relative;
+    top: 450px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    transition: all 1s ease-in-out;
+}
+
+#sector7>*:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    transition: all 1s ease-in-out;
+
+}
+.set{
+   margin-top: 10%;
+}
+.contenedor{
+    position: absolute;
+    width: 100%;
+}
+.futo{
+    position: relative;
+}
+
+#login{
+    margin-top: 20%;
+    margin-left: 37.5%;
+    border-radius: 5%;
+    padding: 35px;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    z-index: 10;
+}
